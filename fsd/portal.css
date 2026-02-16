@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-color: black;
+    height: 4rem;
+    color:white;
+}
+.nav-options{
+    display: flex;
+}
+ul li{
+    margin :20px;
+    list-style: none;
+    
+}

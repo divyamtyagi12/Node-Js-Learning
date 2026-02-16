@@ -1,0 +1,25 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+    font-size: large;
+    color: blue;
+}
+#left{
+ height: 500px;
+ width: 500px;
+ background-color: aqua;
+}
+#right{
+ height: 500px;
+ width: 500px;
+ background-color: yellow;
+ float: right;
+}
+div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    
+}

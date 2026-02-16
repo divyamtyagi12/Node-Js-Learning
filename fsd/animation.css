@@ -1,0 +1,39 @@
+.box{
+    width : 200px;
+    height: 200px;
+    background-color: aquamarine;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+}
+@keyframes example{
+    from{
+        background-color: aquamarine;
+    }
+    to{
+        background-color: slateblue;
+    }
+}
+
+@keyframes example{
+    0%{
+        background-color: aquamarine;
+        transform: translate(0, 0);
+    }
+    25%{
+        background-color: coral;
+        transform: translate(1000px, 0);
+    }
+    50%{
+        background-color: gold;
+        transform: translate(1000px, 500px);
+    }
+    75%{
+        background-color: red;
+        transform: translate(0, 500px);
+    }
+    100%{
+        background-color: slateblue;
+        transform: translate(0, 0);
+    }
+}
